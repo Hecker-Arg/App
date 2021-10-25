@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-cian: hsl(171, 66%, 44%);
+    --color-azul: hsl(233, 100%, 69%);
+    --letra-gris: hsl(210, 10%, 33%);
+    --gris-clarito: hsl(201, 11%, 66%);
+ }
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    Font-size: 18px;
+}
+@media screen and (max-width:678px) {
+   body{
+    background-color: #8f8787;
+   } 
+    
+}
+/* SECCION UNO */
+
+.uno{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+@media screen and (max-width:678px){
+    .uno{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+.icono-uno{
+    padding-top: 5rem;
+}
+.image-logo{
+    width: 90px;
+}
+
+.textos-uno{
+    height: 200px;
+    width: 700px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 19px;   
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: var(--gris-clarito);
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.botones{
+    margin-top: 2rem;
+}
+.boton-mac{
+    background-color: var(--color-azul);
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.boton-mac:hover{
+    background-color: rgb(100, 177, 248);
+}
+.boton-ios:hover{
+    background-color: #01fda9;
+}
+
+.boton-ios{
+    background-color: var(--color-cian);
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.textos-dos{
+    width: 600px;
+    margin-top: 4rem;
+}
+.subtitulo{
+    font-size: 30px;
+}
+.parrafo-dos{
+    margin-top: 1rem;
+}
+
+/* SECCION DOS */
+.dos{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 8rem;
+    justify-content: space-between;
+}
+
+.image-compu{
+    position: relative;
+    left: -1.5rem;
+    height: 600px;
+}
+.opciones{
+    display: flex;
+    width: 500px;
+    height:1600px;
+    align-items: center;
+    justify-content: space-between;  
+}
+dl{
+    height: 350px;
+}
+dt{
+    padding-top: 35px;
+    font-weight: 600;
+    font-size: 24px;
+}
+dd{
+    color: var(--letra-gris);
+    font-size: 15px;
+    padding-top: .5rem;
+    font-weight: 400;
+}
+/* SECCION TRES */
+.tres{
+    text-align: center;
+}
+.texto-tres{
+    display: flex;
+    flex-flow:column  ;
+    justify-content: center;
+    height: 1000px;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+    gap: 15px;
+}
+.parrafo-tres{
+    height: 50px;
+    width: 600px;
+    color: var(--gris-clarito);
+    margin-top: 1rem;
+}
+.imagen-cel-compu{
+    margin: 5rem 0;
+}
+.parrafo-tres-abajo{
+    font-size: 15px;
+    color: var(--gris-clarito);
+}
+
+/* SECCION cuatro */
+.cuatro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    height: 300px;
+    margin-top: 3.5rem;
+}
+.blacklist, .text, .preview{
+    width: 380px;
+    height: 250px;
+} 
+.textos-cuatro{
+    margin-top: 3rem;
+}
+.textos-cuatro p{
+    padding-top: 1.5rem;
+}
+.title-text, .title-preview{
+margin-top: 3.5rem;
+}
+/* SECCION 5 */
+.cinco{
+    height: 150px;
+    margin-top: 3rem;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* SECCION BOTONES ABAJO */
+.botones-abajo{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column wrap;
+    
+}
+.texto-botones{
+    width: 550px;
+    margin: 1.5rem 0;
+}
+.boton{
+    cursor: pointer;
+    transition: 2s ease all;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+} 
+.logo-foter{
+    width: 70px;
+}
+.opciones{
+    height: 52px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 1px;
+}
+.opciones a{
+    color: var(--letra-gris);
+    font-size: 15px;
+}
+.redes-footer{
+    word-spacing: 15px;
+}
+
